@@ -1,0 +1,170 @@
+/* Iteration 1 - Red target */
+.blank {
+        width: 200px;
+        height: 200px;
+        border: 3px solid black;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+
+.red-tgt {
+        width: 100px;
+        height: 100px;
+        border: 4px black;
+        border-style: dashed;
+        background-color: red;
+    }
+
+/* Iteration 2 - Shaped table */
+td {
+    border: 3px solid black;
+    }
+
+.first-row {
+    height: 50px;
+}
+
+.second-row {
+    width: 50px;
+    height: 50px;
+}
+
+.third-row {
+    height: 50px;
+}
+
+.blue {
+    background-color: rgb(136, 203, 206);
+}
+
+/*Iteration 3 - Purple blocks*/
+
+.big-block {
+    width: 300px;
+    height: 60px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.block-a {
+    background-color: rgb(98, 11, 179);
+    color: white;
+    width: 70px;
+    height: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.block-b {
+    background-color: rgb(98, 11, 179);
+    color: white;
+    width: 225px;
+    height: 25px;
+    text-align: left;
+    margin-left: 3px;
+}
+
+.block-c {
+    background-color: rgb(98, 11, 179);
+    color: white;
+    width: 221px;
+    height: 25px;
+    text-align: right;
+    margin-top: 4px;
+    margin-left: 73px;
+}
+
+.block-d {
+    background-color: rgb(98, 11, 179);
+    color: white;
+    width: 70px;
+    height: 25px; 
+    margin-left: 3px;
+}
+
+/*Bonus 1 - Inline-block rows*/
+
+.inline-blocks {
+    width: 300px;
+    display: inline-block;
+    color: white;
+    font-size: 0;
+}
+
+.red-row {
+    background-color: red;
+    border-left: 2px solid black;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.black-row {
+    background-color: black;
+    border-left: 2px solid red;
+    color: white;
+}
+
+.red-row div,
+.black-row div {
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    border-right: 2px solid;
+}
+
+.black-row div {
+    border-color: red;
+}
+
+.red-row div {
+    border-color: black;
+}
+
+/*Bonus 2 - Flexbox rows*/
+
+.orange-row {
+    width: 300px;
+    height: 60px;
+    background-color: rgba(247, 144, 9, 0.904);
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    border-right: 2px solid rgb(20, 189, 152);
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.orange-row div,
+.green-row div {
+   width: 25%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.orange-row div {
+    border-left: 2px solid rgb(20, 189, 152);
+    justify-content: center;
+    align-items: center;
+}
+
+.green-row div {
+    border-left: 2px solid rgba(247, 144, 9, 0.904);
+    justify-content: center;
+    align-items: center;
+}
+
+.green-row {
+    width: 300px;
+    height: 60px;
+    background-color: rgb(20, 189, 152);
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 20px;
+    border-right: 2px solid rgba(247, 144, 9, 0.904);
+}
